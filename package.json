@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Homework due 01/21/2017",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmeder2016/FriendFinder.git"
+  },
+  "author": "Michael Meder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmeder2016/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/mmeder2016/FriendFinder#readme"
+}

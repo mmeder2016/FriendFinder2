@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homework due 01/21/2017</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- My Stuff -->
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <!-- Make page resposive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    h4 {
+        color: blue;
+        text-align: left;
+    }
+    
+    .div-radio-buttons {
+        margin-bottom: 5px;
+    }
+    
+    img {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    body {
+        font-weight: bold;
+        color: green;
+    }
+    
+    .radio-inline {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Survey Questions</h1>
+        <form>
+            <h4>Name (Required)</h4>
+            <input type="text" name="" id="username" class="form-control" required>
+            <h4>Link to Photo Image (Required)</h4>
+            <input type="text" name="" id="userphoto" class="form-control" required>
+            <h4>Question 1: Being on time means being there 15 minutes early.</h4>
+            <!-- name attribut makes buttons mutually exclusive -->
+            <div class="btn-group div-radio-buttons div-radio-buttons01" data-toggle="buttons">
+                Agree
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup01" value="1">1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup01" value="2">2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup01" value="3">3
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup01" value="4">4
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup01" value="5">5
+                </label>
+                Disagree
+            </div>
+            <h4>Question 2: A conversation involves awareness that you are also there to listen.</h4>
+            <div class="btn-group div-radio-buttons div-radio-buttons02" data-toggle="buttons">
+                Agree
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup02" value="1">1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup02" value="2">2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup02" value="3">3
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup02" value="4">4
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup02" value="5">5
+                </label>
+                Disagree
+            </div>
+            <h4>Question 3: It is difficult to think of good questions for matching friends.</h4>
+            <div class="btn-group div-radio-buttons div-radio-buttons03" data-toggle="buttons">
+                Agree
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup03" value="1">1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup03" value="2">2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup03" value="3">3
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup03" value="4">4
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup03" value="5">5
+                </label>
+                Disagree
+            </div>
+            <h4>Question 4: You find a wallet with $200. It's your $200 now.</h4>
+            <div class="btn-group div-radio-buttons div-radio-buttons04" data-toggle="buttons">
+                Agree
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup04" value="1">1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup04" value="2">2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup04" value="3">3
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup04" value="4">4
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup04" value="5">5
+                </label>
+                Disagree
+            </div>
+            <h4>Question 5: It's better to cut off an arm than to risk letting the whole body die.</h4>
+            <div class="btn-group div-radio-buttons div-radio-buttons05" data-toggle="buttons">
+                Agree
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup05" value="1">1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup05" value="2">2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup05" value="3">3
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup05" value="4">4
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup05" value="5">5
+                </label>
+                Disagree
+            </div>
+            <h4>Question 6: A day off with beautiful weather should be spent outdoors</h4>
+            <div class="btn-group div-radio-buttons div-radio-buttons06" data-toggle="buttons">
+                Agree
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup06" value="1">1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup06" value="2">2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup06" value="3">3
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup06" value="4">4
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup06" value="5">5
+                </label>
+                Disagree
+            </div>
+            <h4>Question 7: You should go to bed at the same time every night.</h4>
+            <div class="btn-group div-radio-buttons div-radio-buttons07" data-toggle="buttons">
+                Agree
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup07" value="1">1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup07" value="2">2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup07" value="3">3
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup07" value="4">4
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup07" value="5">5
+                </label>
+                Disagree
+            </div>
+            <h4>Question 8: You keep where you live very clean.</h4>
+            <div class="btn-group div-radio-buttons div-radio-buttons08" data-toggle="buttons">
+                Agree
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup08" value="1">1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup08" value="2">2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup08" value="3">3
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup08" value="4">4
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup08" value="5">5
+                </label>
+                Disagree
+            </div>
+            <h4>Question 9: Dirty jokes are always bad.</h4>
+            <div class="btn-group div-radio-buttons div-radio-buttons09" data-toggle="buttons">
+                Agree
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup09" value="1">1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup09" value="2">2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup09" value="3">3
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup09" value="4">4
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup09" value="5">5
+                </label>
+                Disagree
+            </div>
+            <h4>Question 10: Pets should be allowed to sleep in your bed.</h4>
+            <div class="btn-group div-radio-buttons div-radio-buttons10" data-toggle="buttons">
+                Agree
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup10" value="1">1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup10" value="2">2
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup10" value="3">3
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup10" value="4">4
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="radioGroup10" value="5">5
+                </label>
+                Disagree
+            </div>
+            <br>
+            <button class="btn btn-primary btn-block" id="id-submit" type="submit">Submit</button>
+            <a href="/api/friends">Get All Friends</a>
+        </form>
+    </div>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <button type="button" class="close" id="close-modal" data-dismiss="modal">&times;</button> -->
+                    <h4 class="modal-title">The person who best matches you is:</h4>
+                </div>
+                <div class="modal-body">
+                    <h2 id="modalName"></h2>
+                    <img id="modalImage" src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjxgKG2_s7RAhUW24MKHXjnA3kQjRwIBw&url=http%3A%2F%2Falchetron.com%2FBilly-Gibbons-566797-W&psig=AFQjCNFnq4KMjkwiybKPXikkcmp3BoC7Sg&ust=1484942060234932" alt="Billy" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" id="close-modal" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    //     Gets the name, photolink, and 10 question answers from the form, 
+    // creates a JSON object, and then POSTs it to the path /friends.
+    $("#id-submit").on("click", function() {
+        var NUMQUESTIONS = 10;
+        var scores = [];
+
+        // 1.) Get the name and validate it
+        var name = $('#username').val().trim();
+        if (name.length === 0) {
+            alert("You must enter a name.");
+            return false;
+        }
+
+        // 2.) Get the photo and validate it
+        var photo = $('#userphoto').val().trim();
+        if (photo.length === 0) {
+            alert("You must enter a photo link.");
+            return false;
+        }
+
+        // 3.) Get all the scores and validate that they have been answered
+        scores[0] = $('.div-radio-buttons01 input:radio:checked').val();
+        scores[1] = $('.div-radio-buttons02 input:radio:checked').val();
+        scores[2] = $('.div-radio-buttons03 input:radio:checked').val();
+        scores[3] = $('.div-radio-buttons04 input:radio:checked').val();
+        scores[4] = $('.div-radio-buttons05 input:radio:checked').val();
+        scores[5] = $('.div-radio-buttons06 input:radio:checked').val();
+        scores[6] = $('.div-radio-buttons07 input:radio:checked').val();
+        scores[7] = $('.div-radio-buttons08 input:radio:checked').val();
+        scores[8] = $('.div-radio-buttons09 input:radio:checked').val();
+        scores[9] = $('.div-radio-buttons10 input:radio:checked').val();
+        for (var i = 0; i < NUMQUESTIONS; i++) {
+            // scores[i] will be undefined if not answered
+            if (!scores[i]) {
+                alert('You must answer all the questions');
+                return false;
+            }
+        }
+
+        // 4.) Create the new JSON object
+        var newPerson = {
+            "name": name,
+            "photo": photo,
+            "scores": scores
+        };
+        // 5.) POST the object
+        $.post("/api/friends", newPerson, function(data) {
+                $("#modalName").text(data.name);
+                $('#modalImage').attr("src", data.photo);
+                $("#myModal").modal("toggle");
+            })
+            .done(function(data) {
+                console.log("POSTed data: " + data);
+            });
+        return false;
+    });
+    $("#close-modal").on("click", function() {
+        // Remove input to prevent re-submitting data
+        $('#username').val("");
+        $('#userphoto').val("");
+        $('input[type=radio]').prop("checked", false);
+    });
+    </script>
+</body>
+
+</html>
